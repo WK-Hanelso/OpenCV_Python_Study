@@ -11,7 +11,7 @@ imageFile = "../data/lena.jpg"
 if os.path.isfile( imageFile ) == False:
     print("no File : {}".format( imageFile ) )
 
-# BGR 포맷으로 읽힌다.
+# imread는 이미지를 BGR 포맷으로 읽는다.
 imgBGR = cv2.imread( imageFile )
 
 plt.axis("off")
